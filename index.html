@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ej'Smq</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="mainblock">
+
+        <div class="card">
+            <h1 class="title">Questionnaire</h1>
+
+            <form id="questionnaire">
+                <div class="field">
+                    <label>Name</label>
+                    <input type="text" name="name" required>
+                </div>
+                <div class="field">
+                    <label><strong>1. </strong>Solve the expression: <strong>2^log2(3 * sqrt(2))</strong></label>
+                    <input type="text" name="1">
+                </div>
+                <div class="field">
+                    <label><strong>2. </strong>Explain how did you solved the previous expression?</label>
+                    <input type="text" name="2">
+                </div>
+                <div class="field">
+                    <label><strong>3. </strong>If <strong>a * sqrt(2) + b</strong> is part of the previous expression, how much is <strong>b</strong> if <strong>a + b = 5</strong>.</label>
+                    <input type="text" name="3">
+                </div>
+                <div  class="field">
+                    <label><strong>4. </strong>Explain how you could tell if <strong>b</strong> is even or not.</label>
+                    <input type="text" name="4">
+                </div>
+                <div class="field">
+                    <label><strong>5. </strong>You have a function <strong>g: Z -> Z</strong> satisfying for all integers <strong>m,n: g( m + n ) = g(m) + g(n) + 1</strong></label>
+                    <input type="text" name="5">
+                </div>
+                <div class="field">
+                    <label><strong>6. </strong>Add a term for each iteration, after the second iteration, start erasing the last term, how much will it take to be infinity</label>
+                    <input type="text" name="6">
+                </div>
+                <div class="field">
+                    <label><strong>7. </strong>Trace a line, going straight into a cube, how much volume does it fills.</label>
+                    <input type="text" name="7">
+                </div>
+                <div class="field">
+                    <label><strong>8. </strong>If triangles can fill a square, can it's 3D analog fill a cube?</label>
+                    <input type="text" name="8">
+                </div>
+
+                <button class="submitBtn" type="submit">Submit</button>
+            </form>
+
+            <p id="result"></p>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
